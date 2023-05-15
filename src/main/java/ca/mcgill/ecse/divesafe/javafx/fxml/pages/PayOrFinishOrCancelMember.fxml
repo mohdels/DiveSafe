@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.mcgill.ecse.divesafe.javafx.fxml.controllers.PayOrFinishOrCancelMemberController">
+   <children>
+      <VBox prefHeight="381.0" prefWidth="828.0">
+         <children>
+            <GridPane prefHeight="508.0" prefWidth="828.0" style="-fx-background-color: azure;">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="418.6666259765625" minWidth="10.0" prefWidth="162.66668701171875" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="644.6667327880859" minWidth="10.0" prefWidth="215.12469482421875" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="644.6667327880859" minWidth="0.0" prefWidth="208.5625" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="644.6667327880859" minWidth="10.0" prefWidth="240.49267578125" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="644.6667327880859" minWidth="10.0" prefWidth="91.00732421875" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="360.9946746826172" minHeight="10.0" prefHeight="138.91673278808594" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="261.4930877685547" minHeight="10.0" prefHeight="242.58326721191406" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label alignment="CENTER" prefHeight="107.0" prefWidth="233.0" text="Member email:" textFill="BLACK" />
+                  <Label alignment="CENTER" prefHeight="102.0" prefWidth="287.0" text="Authorization Code:" textFill="BLACK" GridPane.columnIndex="2" />
+                  <TextField fx:id="memberEmail" prefHeight="25.0" prefWidth="230.0" promptText="Enter valid email here" text=" " GridPane.columnIndex="1" />
+                  <TextField fx:id="authorizationCode" prefHeight="25.0" prefWidth="200.0" promptText="Enter valid authorization code here" text=" " GridPane.columnIndex="3" />
+                  <Button fx:id="ConfirmPaymentButton" mnemonicParsing="false" onAction="#ConfirmPaymentClicked" prefHeight="31.0" prefWidth="130.0" style="-fx-background-color: steelblue;" text="Confirm Payment" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER" />
+                  <Button fx:id="FinishTripButton" mnemonicParsing="false" onAction="#FinishTripClicked" prefHeight="31.0" prefWidth="130.0" style="-fx-background-color: steelblue;" text="Finish Trip" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Button fx:id="CancelTripButton" mnemonicParsing="false" onAction="#CancelTripClicked" prefHeight="31.0" prefWidth="130.0" style="-fx-background-color: steelblue;" text="Cancel Trip" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

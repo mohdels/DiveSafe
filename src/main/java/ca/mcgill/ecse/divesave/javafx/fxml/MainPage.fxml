@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="775.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.mcgill.ecse.divesave.javafx.fxml.DiveSafeFxmlView">
+   <children>
+      <TabPane prefHeight="577.0" prefWidth="840.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab text="Home">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: azure;">
+                     <children>
+                        <GridPane layoutX="-2.0" layoutY="-1.0" prefHeight="553.0" prefWidth="781.0">
+                          <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="245.0" minWidth="10.0" prefWidth="53.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="305.0" minWidth="10.0" prefWidth="218.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="473.5" minWidth="10.0" prefWidth="155.5" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="473.5" minWidth="0.0" prefWidth="57.5" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="473.5" minWidth="10.0" prefWidth="113.5" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="473.5" minWidth="10.0" prefWidth="60.5" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="251.54541015625" minWidth="10.0" prefWidth="211.5" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="249.0" minHeight="10.0" prefHeight="159.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="249.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="380.0" minHeight="10.0" prefHeight="11.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="369.5" minHeight="0.0" prefHeight="177.5" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="369.5" minHeight="0.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="369.5" minHeight="10.0" prefHeight="81.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="369.5" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="369.5" minHeight="0.0" prefHeight="46.5" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="369.5" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <ImageView fitHeight="133.0" fitWidth="207.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                                 <image>
+                                    <Image url="@../../../../../../../../../../../../OneDrive/Desktop/McGill/2021-22/CHEE%20401/fun-dives-booking-el-nido-scuba-diving.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to DiveSafe!" textAlignment="CENTER" wrappingWidth="354.6831359863281" GridPane.columnIndex="2">
+                                 <font>
+                                    <Font name="Corbel" size="38.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+                                 <image>
+                                    <Image url="@../../../../../../../../../../../../OneDrive/Desktop/McGill/2021-22/CHEE%20401/Underwater-Diver-Transparent-PNG.png" />
+                                 </image></ImageView>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Book your trip in the beautiful island of Atlantis TODAY!" wrappingWidth="481.13671875" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="Corbel" size="20.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Hotel deals, equipment bundels, and more!" wrappingWidth="167.6484375" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="Corbel" size="16.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="124.0" fitWidth="185.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                                 <image>
+                                    <Image url="@../../../../../../../../../../../../OneDrive/Desktop/McGill/2021-22/CHEE%20401/rs_shutterstock_127605290.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="67.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.columnSpan="8" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                    			 <image>
+                       				 <Image url="@beach.jpeg" />
+                    			 </image>
+                  			</ImageView>
+                              <ImageView fitHeight="151.0" fitWidth="159.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                                 <image>
+                                    <Image url="@../../../../../../../../../../../../OneDrive/Desktop/McGill/2021-22/CHEE%20401/scuba-diving-day-trip-funbaja-11.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#1969fd" strokeType="OUTSIDE" strokeWidth="0.0" text="Questions or Concers? Contact us!" wrappingWidth="100.982421875" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                              <Text fill="#1969fd" strokeType="OUTSIDE" strokeWidth="0.0" text="Email: admin@ad.atl" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                              <Text fill="#1969fd" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone: +1 (234) 567 8910" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                           </children>
+                        </GridPane>
+                     </children>
+                  </AnchorPane>
+              </content>
+               <graphic>
+                  <AnchorPane prefHeight="200.0" prefWidth="0.0" />
+               </graphic>
+            </Tab>
+          <Tab text="Update/Delete/Register Member">
+            <content>
+              <AnchorPane maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="439.0" prefWidth="775.0" style="-fx-background-color: azure;">
+                     <children>
+                        <fx:include source="../../../divesafe/javafx/fxml/pages/UpdateDeleteRegisterMember.fxml" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Initiate Assignments/View Members">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="548.0" prefWidth="843.0" style="-fx-background-color: azure;">
+                     <children>
+                        <fx:include source="../../../divesafe/javafx/fxml/pages/AssignmentPage.fxml" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Pay/Finish/Cancel a member's trip">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="378.0" prefWidth="775.0" style="-fx-background-color: azure;">
+                     <children>
+                        <fx:include source="../../../divesafe/javafx/fxml/pages/PayOrFinishOrCancelMember.fxml" />
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Start all trips for a given day">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="198.0" prefWidth="775.0" style="-fx-background-color: azure;">
+                     <children>
+                        <fx:include source="../../../divesafe/javafx/fxml/pages/StartAllTripsForAGivenDay.fxml" />
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <AnchorPane prefHeight="0.0" prefWidth="1100.0" />
+   </children>
+</VBox>

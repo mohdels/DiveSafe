@@ -1,0 +1,32 @@
+namespace ca.mcgill.ecse.divesafe.controller;
+
+/*
+@author Mohammed Elsayed
+*/
+class TOAssignment {
+  memberEmail;
+  memberName;
+  guideEmail;
+  guideName;
+  hotelName;
+  Integer startDay;
+  Integer endDay;
+  Integer totalCostForGuide;
+  Integer totalCostForEquipment;
+  status;
+  authorizationCode;
+  Integer refundedPercentageAmount;
+}
+/*
+@author Mohammed Elsayed
+*/
+class TOMember {
+	email;
+	name;
+	emergancyContact;
+	password;
+	Integer days;
+	Boolean needGuide;
+	Boolean needHotel;
+	//0..1--* TOGenericItem items;
+}
